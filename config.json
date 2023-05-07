@@ -1,0 +1,12 @@
+{
+    "csv_file": "data/numbers.csv",
+    "image_path": "data/",
+    "augmented_image_path": "data/augmented/",
+    "image_dim": 64,
+    "target": {
+        "checkpoint": "./checkpoints/target/",
+        "learning_rate": 1e-3,
+        "batch_size": 50,
+        "num_classes": 10
+    }
+}
